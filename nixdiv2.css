@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+     
+
+}
+.navbar{
+    height: 95px ;
+    background-color: #000000;
+    display: flex;
+    color: white;
+    
+    
+    
+    
+    
+    
+
+
+}
+.nav-logo{
+    height: 60px ;
+    width:50px;
+    align-items: center;
+    
+
+}
+.logo{
+    background-image: url("mylogo.png");
+    height:90px;
+    background-size: cover;
+    width: 200%;
+    margin-left: 5px;
+       
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;   
+}
+.nav-address{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 31px;
+    font-size: 0.8rem;
+}
+.add-icon{
+    margin-left: 5px;
+    
+}
+
+.nav-search{
+    margin-top: 30px;
+    margin-left: 10px;  
+    display: flex;
+    justify-content: space-evenly ;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    width: 615px;
+    
+    
+}
+.search-select{
+    /* border-radius: 5px; */
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    /* border-bottom-right-radius: px; */
+    border-bottom-left-radius: 4px;
+
+    border: none;
+}
+.search-input{
+    width: 500%;
+    font-size: 1rem;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+
+}
+
+
+
+
+.account{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 0.8;
+    font-weight: 600;
+}
+.account:hover{
+    border: 1px solid grey;
+}
+.right{
+    display: flex;
+    margin-top: 40px;
+    margin: 30px;       
+}
+
+.about{
+    margin-left: 100px;
+    
+
+}
+.about:hover{
+    border: 1px solid grey;
+}
+.contact{
+    margin-left: 100px;
+
+}
+.contact:hover{
+    border: 1px solid grey;
+}
+.partnership{
+    margin-left: 100px;
+
+}
+.partnership:hover{
+    border: 1px solid grey;
+}
+
+.panel2{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+.panel-osp{
+    display: flex;
+    width: 70%;
+    font-size: 0.85;
+    font-weight: 700px;
+    
+}
+.Tech{ 
+    margin-left: 5px;
+
+
+}
+.adv{
+    margin-left: 50px;
+
+
+}
+
+.inter{
+    margin-left: 50px;
+
+}
+.beg{
+    margin-left: 50px;
+}
+
+.hero{
+    background-image: url("nixdevimage.gif") ;
+    background-size: cover;
+    height: 700px;
+    
+
+}
+.journey{
+    
+    font-size: 1rem;
+    font-family: ;
+    font-weight: bold;
+    height: 40px;
+    background: linear-gradient(90deg, rgb(35, 21, 241), rgb(17, 153, 226),blue,lightblue, indigo,violet);
+    background-size: 400% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 5s linear infinite;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+@keyframes rainbow{
+    0%{
+        background-position: 0% 50%;
+
+    }
+    100%{
+        background-position: 100% 50%;
+    }
